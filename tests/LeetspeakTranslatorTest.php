@@ -16,18 +16,18 @@
             $this->assertEquals('m3', $result);
         }
 
-        // function test_translate_o()
-        // {
-        //     //Arrange
-        //     $test_translate = new LeetspeakTranslator;
-        //     $input = 'rookie';
-        //
-        //     //Act
-        //     $reuslt = $test_translate->translate($input);
-        //
-        //     //Assert
-        //     $this->assertEquals('r00ki3', $result);
-        // }
+        function test_translate_o()
+        {
+            //Arrange
+            $test_translate = new LeetspeakTranslator;
+            $input = 'rookie';
+
+            //Act
+            $result = $test_translate->translate($input);
+
+            //Assert
+            $this->assertEquals('r00ki3', $result);
+        }
     }
 
  ?>
