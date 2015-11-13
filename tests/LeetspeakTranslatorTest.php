@@ -28,6 +28,19 @@
             //Assert
             $this->assertEquals('r00ki3', $result);
         }
+
+        function test_translate_i()
+        {
+            //Arrange
+            $test_translate = new LeetspeakTranslator;
+            $input = 'Iverson';
+
+            //Act
+            $result = $test_translate->translate($input);
+
+            //Assert
+            $this->assertEquals('1v3rs0n', $result);
+        }
     }
 
  ?>

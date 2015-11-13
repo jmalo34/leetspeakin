@@ -8,7 +8,7 @@ Output:  r00ki3
 
 SPEC 3:  The capital letter "i" should be replaced with "1"
 Input:  Iverson
-Output:  1verson
+Output:  1v3rs0n
 
 SPEC 4:  All instances of "s" should be replaced with "z"
 Input:  rookies
