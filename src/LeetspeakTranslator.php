@@ -3,10 +3,11 @@
     {
         function translate($phrase)
         {
-            $words = explode(" ", $phrase);
+            $e = 'e';
+            $ee = '3';
+            $phrase = str_replace($e, $ee, $phrase);
 
-
-            return 
+            return $phrase;
         }
     }
 
