@@ -1,0 +1,19 @@
+SPEC 1:  The letter "e" should be replaced with "3"
+Input:  me
+Output:  m3
+
+SPEC 2:  The letter "o" should be replaced with "0"
+Input:  rookie
+Output:  r00ki3
+
+SPEC 3:  The capital letter "i" should be replaced with "1"
+Input:  Iverson
+Output:  1verson
+
+SPEC 4:  All instances of "s" should be replaced with "z"
+Input:  rookies
+Output:  r00ki3z
+
+SPEC 5:  "S" should not be replaced by "z" if it is the first letter of a word
+Input:  street
+Output:  street
