@@ -33,13 +33,26 @@
         {
             //Arrange
             $test_translate = new LeetspeakTranslator;
-            $input = 'Iverson';
+            $input = 'Ivan';
 
             //Act
             $result = $test_translate->translate($input);
 
             //Assert
-            $this->assertEquals('1v3rs0n', $result);
+            $this->assertEquals('1van', $result);
+        }
+
+        function test_translate_s()
+        {
+            //Arrange
+            $test_translate = new LeetspeakTranslator;
+            $input = 'rookies';
+
+            //Act
+            $result = $test_translate->translate($input);
+
+            //Assert
+            $this->assertEquals('r00ki3z', $result);
         }
     }
 
