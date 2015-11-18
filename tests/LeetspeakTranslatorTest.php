@@ -54,6 +54,19 @@
             //Assert
             $this->assertEquals('r00ki3z', $result);
         }
+
+        function test_translate_firstS()
+        {
+            //Arrange
+            $test_translate = new LeetspeakTranslator;
+            $input = 'streets';
+
+            //Act
+            $result = $test_translate->translate($input);
+
+            //Assert
+            $this->assertEquals('str33tz', $result);
+        }
     }
 
  ?>

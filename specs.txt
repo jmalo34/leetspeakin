@@ -15,5 +15,5 @@ Input:  rookies
 Output:  r00ki3z
 
 SPEC 5:  "S" should not be replaced by "z" if it is the first letter of a word
-Input:  street
-Output:  street
+Input:  streets
+Output:  str33tz

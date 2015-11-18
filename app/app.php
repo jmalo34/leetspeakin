@@ -15,9 +15,13 @@
     {
         $my_LeetspeakTranslator = new LeetspeakTranslator;
         $translated = $my_LeetspeakTranslator->translate($_GET['phrase']);
+        var_dump($re_phrased);
+        var_dump($phrase_back);
+        var_dump($phrase);
+        var_dump($newt);
         return $app['twig']->render('translated.html.twig', array('phrase' => $translated));
     });
 
     return $app;
-    
+
  ?>
