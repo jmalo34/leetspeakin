@@ -1,0 +1,50 @@
+$re_phrased = array();
+
+$phrase_back = array();
+
+foreach ($phrase as $word)
+{
+    $letters = str_split($word);
+//[0] => 's'
+  [1] => 'a'
+  [2] => 'y'
+  [3] => 's'
+//[0] => 't'
+  [1] => 'h'
+  [2] => 'e'
+//
+
+    foreach ($letters as $key => $value)
+    {
+        if ($key !=0)
+        {
+            $convert = str_replace($s, $ss, $value);
+            array_push($re_phrased, $convert);
+        }
+        else
+        {
+            $convert = $value;
+            array_push($re_phrased, $convert);
+        }
+//$re_phrased=
+  [0] => 's'
+  [1] => 'a'
+  [2] => 'y'
+  [3] => 'z'
+//[0] => 't'
+  [1] => 'h'
+  [2] => 'e'
+
+        $the_converted = implode($re_phrased);
+//$the_converted=
+  'sayz'
+
+        array_push($phrase_back, $the_converted);
+//$phrase_back
+  [0] => 'sayz'
+  [1] =>
+
+}
+    $translation_is = implode(" ", $phrase_back);
+
+    return $translation_is;
