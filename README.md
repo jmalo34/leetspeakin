@@ -15,7 +15,7 @@ _{version 2.0 of Leet Speak Translator project in PHP}_
 * _start server_
 * _navigate to localhost in your browser_
 
-_{}_
+_{Leet Speak Translator will take a single string as input. The string will be determined by user input. The input will then be translated as determined by the translate function in the LeetspeakTranslator app. The string a user enters into the input field, upon clicking the submit button, will be translated into what has been designated as 'Leet Speak.'}_
 
 ## Technologies Used
 
